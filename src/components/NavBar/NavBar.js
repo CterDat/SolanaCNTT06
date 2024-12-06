@@ -79,16 +79,7 @@ const Navbar = ({ user, onLogout }) => {
                                 </ul>
                             </li>
                             <li><Link to="#">Help</Link></li>
-                            {!user ? ( // Kiểm tra nếu user không tồn tại
-                                <>
-                                    <li className="loginLink"><Link to="/login">LOG In</Link></li>
-                                    <li className="btn signupLink"><Link to="/register">sign up</Link></li>
-                                </>
-                            ) : ( // Nếu user đã đăng nhập
-                                <li className="logoutLink">
-                                    <button onClick={onLogout}>Log Out</button> {/* Nút đăng xuất */}
-                                </li>
-                            )}
+                            
                         </ul>
                     </div>
                 </nav>
