@@ -1,0 +1,14 @@
+.logoutLink button {
+    padding: 10px 15px;             /* Khoảng cách bên trong nút */
+    background-color: #ff4d4d;      /* Màu nền đỏ */
+    color: white;                   /* Màu chữ trắng */
+    border: none;                   /* Không viền */
+    border-radius: 20px;             /* Bo góc */
+    font-size: 16px;                /* Kích thước chữ */
+    cursor: pointer;                /* Hiển thị tay khi di chuột */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu khi hover */
+}
+
+.logoutLink button:hover {
+    background-color: #e60000;      /* Màu nền khi hover */
+}

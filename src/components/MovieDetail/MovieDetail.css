@@ -1,0 +1,33 @@
+.movie-detail {
+    max-width: 800px; /* Đặt chiều rộng tối đa cho phần chi tiết */
+    margin: 20px auto; /* Căn giữa phần chi tiết */
+    padding: 20px;
+    border: 1px solid #ddd; /* Đường viền xung quanh */
+    border-radius: 8px; /* Bo góc cho đường viền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho phần chi tiết */
+    background-color: #f9f9f9; /* Màu nền nhẹ */
+}
+
+.movie-detail h1 {
+    font-size: 2.5rem; /* Kích thước chữ lớn hơn cho tiêu đề */
+    color: #333; /* Màu sắc cho tiêu đề */
+    text-align: center; /* Căn giữa tiêu đề */
+}
+
+.movie-detail img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    border-radius: 8px; /* Bo góc hình ảnh */
+    margin-bottom: 20px; /* Khoảng cách dưới hình ảnh */
+}
+
+.movie-detail p {
+    font-size: 1.2rem; /* Kích thước chữ cho mô tả */
+    color: #555; /* Màu sắc cho văn bản mô tả */
+    line-height: 1.5; /* Khoảng cách giữa các dòng */
+}
+
+.movie-detail strong {
+    color: #d9534f; /* Màu sắc cho giá vé */
+    font-size: 1.5rem; /* Kích thước chữ lớn hơn cho giá vé */
+}

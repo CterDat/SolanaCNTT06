@@ -1,0 +1,52 @@
+.add-movie {
+    max-width: 90%; /* Đặt chiều rộng tối đa cho form */
+    margin: 2rem auto; /* Giữa trang */
+    padding: 2rem; /* Thêm khoảng đệm */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    background-color: #f9f9f9; /* Màu nền */
+}
+
+.add-movie h1 {
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 1.5rem; /* Khoảng cách dưới tiêu đề */
+}
+
+.add-movie label {
+    display: block; /* Hiển thị label như một khối */
+    margin-bottom: 0.5rem; /* Khoảng cách dưới label */
+    font-weight: bold; /* Đậm font chữ */
+}
+
+.add-movie input[type="text"],
+.add-movie input[type="number"],
+.add-movie textarea {
+    width: 100%; /* Đặt chiều rộng 100% */
+    padding: 0.5rem; /* Thêm khoảng đệm */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 4px; /* Bo góc */
+    margin-bottom: 1rem; /* Khoảng cách dưới các trường nhập */
+    font-size: 1rem; /* Kích thước chữ */
+}
+
+.add-movie textarea {
+    height: 100px; /* Đặt chiều cao cho textarea */
+    resize: vertical; /* Cho phép thay đổi kích thước theo chiều dọc */
+}
+
+.add-movie button {
+    width: 100%; /* Đặt chiều rộng 100% cho nút */
+    padding: 0.5rem; /* Thêm khoảng đệm */
+    border: none; /* Xóa đường viền mặc định */
+    border-radius: 4px; /* Bo góc */
+    background-color: #007bff; /* Màu nền nút */
+    color: white; /* Màu chữ */
+    font-size: 1rem; /* Kích thước chữ */
+    cursor: pointer; /* Hiển thị con trỏ tay khi di chuột lên nút */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.add-movie button:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
