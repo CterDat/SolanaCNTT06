@@ -55,25 +55,25 @@
       "id": "1",
       "email": "ngodat2004@email.com",
       "password": "123456",
-      "tickets": [] 
+      
     },
     {
       "id": "b9da",
       "username": "datnvph34326@email.com",
       "password": "123456",
-      "tickets": [] 
+      
     },
     {
       "id": "66ae",
       "username": "datnvph@email.com",
       "password": "123456",
-      "tickets": [] 
+      
     },
     {
       "id": "8ef9",
       "username": "datnvph34326@email.com",
       "password": "123456",
-      "tickets": [] 
+      
     }
   ]
 }
