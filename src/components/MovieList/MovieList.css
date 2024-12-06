@@ -1,0 +1,40 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các card xuống dòng nếu cần */
+    
+}
+.btn-large {
+    padding: 12px 24px; /* Kích thước padding lớn hơn */
+    font-size: 20px; /* Kích thước chữ lớn hơn */
+}
+
+/* Canh giữa nút */
+.btn-container {
+    /* display: flex; */
+    margin: 0 auto;/* Canh giữa theo chiều ngang */
+    margin-top: 10px; /* Khoảng cách phía trên */
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Để đảm bảo mọi thứ bên trong card được căn chỉnh đúng */
+    height: 100%; /* Đặt chiều cao card bằng nhau */
+}
+
+.card img {
+    width: 100%; /* Để hình ảnh chiếm toàn bộ chiều rộng */
+    height: 500px; /* Đặt chiều cao cố định cho hình ảnh */
+    border-radius: 8px; /* Bo góc cho hình ảnh */
+}
+
+.card-body {
+    flex-grow: 1; /* Để phần nội dung bên trong card có thể mở rộng để lấp đầy không gian */
+    margin: 0 auto;
+}
+/* MovieList.css */
+
+/* Thay đổi kích thước nút */
+
+
+/* MovieList.css */

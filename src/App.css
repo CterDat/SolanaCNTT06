@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-container {
+    max-width: 2000px; /* Điều chỉnh chiều rộng tối đa */
+    margin: 0 auto; /* Giữa trang */
+    padding-left: 30px; /* Thêm padding bên trái */
+    padding-right: 30px;
+    padding-bottom: 20px; /* Thêm padding bên phải */
+    background-color: #a9a9a9;
+}
+.wallet-section {
+  margin-top: 120px; /* Hoặc giá trị phù hợp với chiều cao của NavBar */
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, rgba(255, 105, 180, 0.9), rgba(255, 255, 0, 0.9)); /* Màu nền gradient */
+  color: white; /* Màu chữ */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Hiệu ứng bóng cho chữ */
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem; /* Kích thước chữ của brand */
+  font-weight: bold; /* Đậm chữ */
+}
+
+.navbar .nav-item {
+  margin-left: 15px; /* Khoảng cách giữa các mục menu */
+}
+
+.navbar .nav-link {
+  color: white !important; /* Màu chữ của link */
+  padding: 10px 15px; /* Padding cho link */
+  font-size: 1.1rem; /* Kích thước chữ của link */
+  transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.navbar .nav-link:hover {
+  color: #ff5e07 !important; /* Màu chữ khi hover */
+  background-color: rgba(255, 255, 255, 0.2); /* Nền khi hover */
+  border-radius: 5px; /* Bo góc cho nền */
+}
+
+.wallet-status {
+  max-width: 600px; /* Đặt chiều rộng tối đa */
+  margin: 20px auto; /* Căn giữa phần trạng thái */
+  padding: 15px; /* Thêm khoảng cách bên trong */
+  border: 2px solid #28a745; /* Đường viền màu xanh lá cây */
+  border-radius: 8px; /* Bo góc cho đường viền */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho phần trạng thái */
+  background-color: rgba(40, 167, 69, 0.1); /* Màu nền nhạt cho phần hiển thị */
+  text-align: center; /* Căn giữa văn bản */
+  font-size: 1.2rem; /* Kích thước chữ cho địa chỉ ví */
+  color: #28a745; /* Màu sắc cho văn bản */
+  font-weight: bold; /* Làm cho chữ đậm */
+  
+}

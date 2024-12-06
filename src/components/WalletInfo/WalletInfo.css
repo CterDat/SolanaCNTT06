@@ -1,0 +1,22 @@
+.wallet-info {
+    max-width: 600px; /* Đặt chiều rộng tối đa cho phần thông tin ví */
+    margin: 20px auto; /* Căn giữa phần thông tin ví */
+    padding: 20px; /* Thêm khoảng cách bên trong */
+    border: 1px solid #ddd; /* Đường viền xung quanh */
+    border-radius: 8px; /* Bo góc cho đường viền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho phần thông tin */
+    background-color: #f9f9f9; /* Màu nền nhẹ */
+}
+
+.wallet-info h2 {
+    font-size: 1.8rem; /* Kích thước chữ cho tiêu đề */
+    color: #333; /* Màu sắc cho tiêu đề */
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+}
+
+.wallet-info p {
+    font-size: 1.2rem; /* Kích thước chữ cho văn bản */
+    color: #555; /* Màu sắc cho văn bản */
+    text-align: center; /* Căn giữa văn bản */
+}

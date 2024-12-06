@@ -1,0 +1,79 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Phim CterDat",
+      "description": "Mô tả phim 1",
+      "price": 1.5,
+      "image": "https://bloganchoi.com/wp-content/uploads/2023/07/review-phim-nguoi-noi-tieng-netflix-full-1-12-3.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Phim 2",
+      "description": "Mô tả phim 2",
+      "price": 2,
+      "image": "https://th.bing.com/th/id/OIP.ySoC6qPWETZTh1jXkgC7FgHaLH?w=720&h=1080&rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "3",
+      "title": "Phim 3",
+      "description": "Mô tả phim 3",
+      "price": 2.5,
+      "image": "https://th.bing.com/th/id/OIP.TvJTf3vI3JrSoq0_3GHzvAHaLE?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "4",
+      "title": "Phim 4",
+      "description": "Mô tả phim 4",
+      "price": 3,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTlmYTFkNTMtYWMyYy00NTdlLWEwZTctOWJlYzYzYmQ5OGJlXkEyXkFqcGdeQXVyNDc0Njc1NTY@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Phim 5",
+      "description": "Mô tả phim 5",
+      "price": 2.8,
+      "image": "url_to_image_5.jpg"
+    },
+    {
+      "id": "1803",
+      "title": "Wukong",
+      "description": "sdkjahkdjas",
+      "price": 3,
+      "image": "https://th.bing.com/th/id/OIP.Sz-O5WuTNPSVj3Wl9FNiqQHaK-?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "7396",
+      "title": "man",
+      "description": "312312",
+      "price": 3,
+      "image": "https://th.bing.com/th/id/OIP.rJ-W28TWGSLwzoc_q_CBnwHaJ4?rs=1&pid=ImgDetMain"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "ngodat2004@email.com",
+      "password": "123456",
+      "tickets": [] 
+    },
+    {
+      "id": "b9da",
+      "username": "datnvph34326@email.com",
+      "password": "123456",
+      "tickets": [] 
+    },
+    {
+      "id": "66ae",
+      "username": "datnvph@email.com",
+      "password": "123456",
+      "tickets": [] 
+    },
+    {
+      "id": "8ef9",
+      "username": "datnvph34326@email.com",
+      "password": "123456",
+      "tickets": [] 
+    }
+  ]
+}

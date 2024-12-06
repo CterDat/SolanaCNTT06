@@ -1,0 +1,38 @@
+.send-transaction {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.send-transaction h3 {
+    color: #333;
+}
+
+.send-transaction input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-transaction button {
+    background-color: #4caf50; /* Màu xanh */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.send-transaction button:hover {
+    background-color: #45a049; /* Màu xanh tối hơn khi hover */
+}
+
+.transaction-status {
+    margin-top: 10px;
+}

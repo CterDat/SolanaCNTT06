@@ -1,0 +1,40 @@
+.wallet-section {
+    max-width: 600px;
+    margin: 0 auto; /* Căn giữa phần ví */
+    padding: 20px; /* Thêm khoảng cách bên trong */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Bo góc cho đường viền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho phần ví */
+    background-color: #f9f9f9; /* Màu nền nhẹ */
+  }
+  
+  .wallet-section h2 {
+    font-size: 1.8rem; /* Kích thước chữ cho tiêu đề */
+    color: #333; /* Màu sắc cho tiêu đề */
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+  }
+  
+  .wallet-section p {
+    font-size: 1.2rem; /* Kích thước chữ cho văn bản */
+    color: #555; /* Màu sắc cho văn bản */
+    line-height: 1.5; /* Khoảng cách giữa các dòng */
+    text-align: center; /* Căn giữa văn bản */
+  }
+  
+  .wallet-button {
+    display: block; /* Hiển thị nút như một khối */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    padding: 10px; /* Thêm khoảng cách bên trong */
+    border: none; /* Loại bỏ đường viền mặc định */
+    border-radius: 5px; /* Bo góc cho nút */
+    background-color: #007bff; /* Màu nền cho nút */
+    color: white; /* Màu chữ cho nút */
+    font-size: 1.1rem; /* Kích thước chữ cho nút */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua nút */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+  }
+  
+  .wallet-button:hover {
+    background-color: #0056b3; /* Màu nền khi di chuột qua nút */
+  }
