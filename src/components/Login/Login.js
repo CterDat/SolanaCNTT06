@@ -3,35 +3,37 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './Login.css'; // Import tệp CSS riêng
 
-const Login = ({ setUser }) => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
-    const navigate = useNavigate();
+const Login = ({  }) => {
+    const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.get('http://localhost:3001/users');
-            const users = response.data;
-            const foundUser = users.find(user => user.username === username && user.password === password);
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.get("http://localhost:3001/users"); // API JSON Server
+      const users = response.data;
 
-            if (foundUser) {
-                setUser(foundUser);
-                alert('Đăng nhập thành công!');
-                navigate('/');
-            } else {
-                setError('Tên người dùng hoặc mật khẩu không đúng.');
-            }
-        } catch (err) {
-            setError('Đăng nhập thất bại. Vui lòng thử lại.');
-        }
-    };
+      // Tìm user với username và password khớp
+      const user = users.find(
+        (u) => u.username === username && u.password === password
+      );
+      if(user){
+        navigate('/',{state: {user}})
+      }else{
+        alert("Tên người dùng hoặc mật khẩu không đúng!");
+        return;
+      }
 
+     
+    } catch (error) {
+      console.error("Lỗi khi gọi API:", error);
+    }
+  };
     return (
         <div className="login-container">
             <h2>Đăng Nhập</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleLogin}>
                 <input
                     type="text"
                     placeholder="Tên người dùng"
@@ -48,7 +50,6 @@ const Login = ({ setUser }) => {
                 />
                 <button type="submit">Đăng Nhập</button>
             </form>
-            {error && <p>{error}</p>}
         </div>
     );
 };

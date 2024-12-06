@@ -1,3 +1,4 @@
+// BookingHistory.js
 import React from 'react';
 
 const BookingHistory = ({ tickets }) => {
@@ -10,9 +11,7 @@ const BookingHistory = ({ tickets }) => {
                 <ul className="list-group">
                     {tickets.map((ticket, index) => (
                         <li className="list-group-item" key={index}>
-                            <h5>{ticket.title}</h5>
-                            <p>Giá: {ticket.price} SOL</p>
-                            <p>Ngày đặt: {new Date(ticket.purchaseDate).toLocaleDateString()}</p>
+                            {ticket.title} - {ticket.price} SOL
                         </li>
                     ))}
                 </ul>
